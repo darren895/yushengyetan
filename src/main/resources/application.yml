@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: prod
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: juben
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
